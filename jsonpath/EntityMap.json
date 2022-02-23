@@ -1,0 +1,50 @@
+{
+	"entity":{
+		"firstname":"firstname",
+		"person":"firstname",
+		"first_name":"firstname",
+		"first name":"firstname",
+		"lastname":"lastname",
+		"last_name":"lastname",
+		"last name":"lastname",
+		"address":"address",
+		"city":"city"
+	},
+	"firstname": {
+		  "key": "firstname",
+		  "description": "First Name of Person",
+		  "type": "string",
+		  "rules": {
+			"unique": "false",
+			"generation": "random",
+			"name": "firstname"
+		  }
+		},
+		"address": {
+		  "key": "bank_address",
+		  "description": "Bank Address",
+		  "type": "string-regex",
+		  "rules": {
+			"unique": "false",
+			"generation": "random",
+			"range": "10-10",
+			"chars": "alpha",
+			"group": "Gi,Gii,Giii,Giv",
+			"Gi": "2-4:numeric:0:None:None:^\\d{2,4}$",
+			"Gii": "4:name:1: :None:street",
+			"Giii": "4:name:2: :None:city",
+			"Giv": "5:numeric:3: :None:^\\d{5}$"
+		  }
+		},
+		"city": {
+		  "key": "city",
+		  "description": "Employee's city",
+		  "type": "string",
+		  "rules": {
+			"unique": "false",
+			"generation": "random",
+			"name": "city"
+		  }
+		}		
+
+}

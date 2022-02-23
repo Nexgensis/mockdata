@@ -1,0 +1,414 @@
+{
+  "Country": {
+    "Austria": {
+      "Code": "AT",
+      "MiddleEast": "N"
+    },
+    "Australia": {
+      "Code": "AU",
+      "MiddleEast": "N"
+    },
+    "Bahrain": {
+      "Code": "BH",
+      "MiddleEast": "Y"
+    },
+    "Bangladesh": {
+      "Code": "BD",
+      "MiddleEast": "N"
+    },
+    "Belgium": {
+      "Code": "BE",
+      "MiddleEast": "N"
+    },
+    "Brazil": {
+      "Code": "BR",
+      "MiddleEast": "N"
+    },
+    "Bulgaria": {
+      "Code": "BG",
+      "MiddleEast": "N"
+    },
+    "Canada": {
+      "Code": "CA",
+      "MiddleEast": "N"
+    },
+    "Cambodia": {
+      "Code": "KH",
+      "MiddleEast": "N"
+    },
+    "China": {
+      "Code": "CN",
+      "MiddleEast": "N"
+    },
+    "Colombia": {
+      "Code": "CO",
+      "MiddleEast": "N"
+    },
+    "Egypt": {
+      "Code": "EG",
+      "MiddleEast": "Y"
+    },
+    "France": {
+      "Code": "FR",
+      "MiddleEast": "N"
+    },
+    "Germany": {
+      "Code": "DE",
+      "MiddleEast": "N"
+    },
+    "Greece": {
+      "Code": "GR",
+      "MiddleEast": "N"
+    },
+    "Hungary": {
+      "Code": "HU",
+      "MiddleEast": "N"
+    },
+    "Hong Kong": {
+      "Code": "HK",
+      "MiddleEast": "N"
+    },
+    "India": {
+      "Code": "IN",
+      "MiddleEast": "N"
+    },
+    "Indonesia": {
+      "Code": "ID",
+      "MiddleEast": "N"
+    },
+    "Iran": {
+      "Code": "IR",
+      "MiddleEast": "Y"
+    },
+    "Iraq": {
+      "Code": "IQ",
+      "MiddleEast": "Y"
+    },
+    "Ireland": {
+      "Code": "IE",
+      "MiddleEast": "N"
+    },
+    "Israel": {
+      "Code": "IL",
+      "MiddleEast": "N"
+    },
+    "Italy": {
+      "Code": "IT",
+      "MiddleEast": "N"
+    },
+    "Japan": {
+      "Code": "JP",
+      "MiddleEast": "N"
+    },
+    "Kuwait": {
+      "Code": "KW",
+      "MiddleEast": "Y"
+    },
+    "Lebanon": {
+      "Code": "LB",
+      "MiddleEast": "Y"
+    },
+    "Malaysia": {
+      "Code": "MY",
+      "MiddleEast": "N"
+    },
+    "Nepal": {
+      "Code": "NP",
+      "MiddleEast": "N"
+    },
+    "Netherlands": {
+      "Code": "NL",
+      "MiddleEast": "N"
+    },
+    "New Zealand": {
+      "Code": "NZ",
+      "MiddleEast": "N"
+    },
+    "Oman": {
+      "Code": "OM",
+      "MiddleEast": "Y"
+    },
+    "Philippines": {
+      "Code": "PH",
+      "MiddleEast": "N"
+    },
+    "Qatar": {
+      "Code": "QA",
+      "MiddleEast": "Y"
+    },
+    "Russia": {
+      "Code": "RU",
+      "MiddleEast": "N"
+    },
+    "Saudi Arabia": {
+      "Code": "SA",
+      "MiddleEast": "Y"
+    },
+    "Singapore": {
+      "Code": "SG",
+      "MiddleEast": "N"
+    },
+    "Spain": {
+      "Code": "ES",
+      "MiddleEast": "N"
+    },
+    "Sri Lanka": {
+      "Code": "LK",
+      "MiddleEast": "N"
+    },
+    "South Africa": {
+      "Code": "ZA",
+      "MiddleEast": "N"
+    },
+    "South Korea": {
+      "Code": "KR",
+      "MiddleEast": "N"
+    },
+    "Sweden": {
+      "Code": "SE",
+      "MiddleEast": "N"
+    },
+    "Switzerland": {
+      "Code": "CH",
+      "MiddleEast": "N"
+    },
+    "Taiwan": {
+      "Code": "TW",
+      "MiddleEast": "N"
+    },
+    "Thailand": {
+      "Code": "TH",
+      "MiddleEast": "N"
+    },
+    "Turkey": {
+      "Code": "TR",
+      "MiddleEast": "N"
+    },
+    "United Arab Emirates": {
+      "Code": "AE",
+      "MiddleEast": "Y"
+    },
+    "United Kingdom": {
+      "Code": "GB",
+      "MiddleEast": "N"
+    },
+    "United States": {
+      "Code": "US",
+      "MiddleEast": "N"
+    },
+    "Vietnam": {
+      "Code": "VN",
+      "MiddleEast": "N"
+    },
+    "Yemen": {
+      "Code": "YE",
+      "MiddleEast": "Y"
+    }
+  },
+  "Code": {
+    "AT": {
+      "Country": "Austria",
+      "MiddleEast": "N"
+    },
+    "AU": {
+      "Country": "Australia",
+      "MiddleEast": "N"
+    },
+    "BH": {
+      "Country": "Bahrain",
+      "MiddleEast": "Y"
+    },
+    "BD": {
+      "Country": "Bangladesh",
+      "MiddleEast": "N"
+    },
+    "BE": {
+      "Country": "Belgium",
+      "MiddleEast": "N"
+    },
+    "BR": {
+      "Country": "Brazil",
+      "MiddleEast": "N"
+    },
+    "BG": {
+      "Country": "Bulgaria",
+      "MiddleEast": "N"
+    },
+    "CA": {
+      "Country": "Canada",
+      "MiddleEast": "N"
+    },
+    "KH": {
+      "Country": "Cambodia",
+      "MiddleEast": "N"
+    },
+    "CN": {
+      "Country": "China",
+      "MiddleEast": "N"
+    },
+    "CO": {
+      "Country": "Colombia",
+      "MiddleEast": "N"
+    },
+    "EG": {
+      "Country": "Egypt",
+      "MiddleEast": "Y"
+    },
+    "FR": {
+      "Country": "France",
+      "MiddleEast": "N"
+    },
+    "DE": {
+      "Country": "Germany",
+      "MiddleEast": "N"
+    },
+    "GR": {
+      "Country": "Greece",
+      "MiddleEast": "N"
+    },
+    "HU": {
+      "Country": "Hungary",
+      "MiddleEast": "N"
+    },
+    "HK": {
+      "Country": "Hong Kong",
+      "MiddleEast": "N"
+    },
+    "IN": {
+      "Country": "India",
+      "MiddleEast": "N"
+    },
+    "ID": {
+      "Country": "Indonesia",
+      "MiddleEast": "N"
+    },
+    "IR": {
+      "Country": "Iran",
+      "MiddleEast": "Y"
+    },
+    "IQ": {
+      "Country": "Iraq",
+      "MiddleEast": "Y"
+    },
+    "IE": {
+      "Country": "Ireland",
+      "MiddleEast": "N"
+    },
+    "IL": {
+      "Country": "Israel",
+      "MiddleEast": "N"
+    },
+    "IT": {
+      "Country": "Italy",
+      "MiddleEast": "N"
+    },
+    "JP": {
+      "Country": "Japan",
+      "MiddleEast": "N"
+    },
+    "KW": {
+      "Country": "Kuwait",
+      "MiddleEast": "Y"
+    },
+    "LB": {
+      "Country": "Lebanon",
+      "MiddleEast": "Y"
+    },
+    "MY": {
+      "Country": "Malaysia",
+      "MiddleEast": "N"
+    },
+    "NP": {
+      "Country": "Nepal",
+      "MiddleEast": "N"
+    },
+    "NL": {
+      "Country": "Netherlands",
+      "MiddleEast": "N"
+    },
+    "NZ": {
+      "Country": "New Zealand",
+      "MiddleEast": "N"
+    },
+    "OM": {
+      "Country": "Oman",
+      "MiddleEast": "Y"
+    },
+    "PH": {
+      "Country": "Philippines",
+      "MiddleEast": "N"
+    },
+    "QA": {
+      "Country": "Qatar",
+      "MiddleEast": "Y"
+    },
+    "RU": {
+      "Country": "Russia",
+      "MiddleEast": "N"
+    },
+    "SA": {
+      "Country": "Saudi Arabia",
+      "MiddleEast": "Y"
+    },
+    "SG": {
+      "Country": "Singapore",
+      "MiddleEast": "N"
+    },
+    "ES": {
+      "Country": "Spain",
+      "MiddleEast": "N"
+    },
+    "LK": {
+      "Country": "Sri Lanka",
+      "MiddleEast": "N"
+    },
+    "ZA": {
+      "Country": "South Africa",
+      "MiddleEast": "N"
+    },
+    "KR": {
+      "Country": "South Korea",
+      "MiddleEast": "N"
+    },
+    "SE": {
+      "Country": "Sweden",
+      "MiddleEast": "N"
+    },
+    "CH": {
+      "Country": "Switzerland",
+      "MiddleEast": "N"
+    },
+    "TW": {
+      "Country": "Taiwan",
+      "MiddleEast": "N"
+    },
+    "TH": {
+      "Country": "Thailand",
+      "MiddleEast": "N"
+    },
+    "TR": {
+      "Country": "Turkey",
+      "MiddleEast": "N"
+    },
+    "AE": {
+      "Country": "United Arab Emirates",
+      "MiddleEast": "Y"
+    },
+    "GB": {
+      "Country": "United Kingdom",
+      "MiddleEast": "N"
+    },
+    "US": {
+      "Country": "United States",
+      "MiddleEast": "N"
+    },
+    "VN": {
+      "Country": "Vietnam",
+      "MiddleEast": "N"
+    },
+    "YE": {
+      "Country": "Yemen",
+      "MiddleEast": "Y"
+    }
+  }
+}

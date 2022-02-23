@@ -1,0 +1,8 @@
+{
+	"host":"localhost",
+	"database":"sample",
+	"user":"bharat",
+	"password":"bharat",
+	"tableName":"housing1",
+	"port":"5432"
+}

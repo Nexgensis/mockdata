@@ -1,0 +1,29 @@
+{
+	"address":{
+		"dataType":"alphanumeric",
+		"min_num_of_words":2,
+		"max_num_of_words":6,
+		"repeated_symbols":["/",","],
+		"min_numeric_words":1,
+		"min_alpha_words":1,
+		"suffix_list":["rd","st","av","cr","road","street","avenue","lane",],
+		"suffix_patterns":["XX"],
+		"patterns":[
+			[
+			  "num{*}",
+			  "/",
+			  "word{*}",
+			  "suffix"
+			],
+			[
+			  "num{*}",
+			  "word{*}",
+			  "suffix_pattern"
+			]
+			
+		]
+
+	},
+}
+
+
