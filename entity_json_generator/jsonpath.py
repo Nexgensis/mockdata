@@ -5,7 +5,7 @@ aegis_home = os.environ.get('AEGIS_HOME')
 
 # define file path path for alljsons
 
-allJsonPath = aegis_home+'/python/jsonpath/'
+allJsonPath = './jsonpath/'
 
 # define constant for complit path of AddressMatch.json
 ADDRESS_MATCH_JSON = allJsonPath+'AddressMatch.json'
