@@ -1,11 +1,16 @@
 """ This file is use to give all json path as a constant which acn be import from indiviual python files as per requirements."""
 
 import os
+
 aegis_home = os.environ.get('AEGIS_HOME')
 
 # define file path path for alljsons
 
-allJsonPath = './jsonpath/'
+dirname = os.path.dirname(__file__)
+
+allJsonPath = str(os.path.abspath(os.path.join(dirname, os.pardir))) +'/jsonpath/'
+
+print(f'Alljson path={allJsonPath}')
 
 # define constant for complit path of AddressMatch.json
 ADDRESS_MATCH_JSON = allJsonPath+'AddressMatch.json'
