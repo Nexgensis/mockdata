@@ -19,7 +19,6 @@ logger = None
 loggstr='Inside StringDataGenerator.py:'
 
 from .common_functionality import remove_extra_list_elements
-# from .commom_functionality import make_duplicates_of_unique
 
 def get_listof_strings(stringDataList,colDict,entity):
     try:

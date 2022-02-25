@@ -13,21 +13,14 @@ import random
 import string
 from datetime import datetime
 from datetime import timedelta
-from entity_json_generator.jsonpath import DATE_FORMATS_JSON
 from .common_functionality import remove_extra_list_elements
+from utility_codes.path_manager import DATE_FORMATS_JSON
 import copy
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-aegis_home = os.environ.get('AEGIS_HOME')
-sys.path.append(aegis_home+'/python')
-sys.path.append(aegis_home+'/python/entity_json_generator')
-
 logger = None
 loggstr = 'Inside DateDataGenerator.py:'
-
-# from .commom_functionality import make_duplicates_of_unique
-
 
 def getFormattedDate(dateVal, x, dateFormat):
     try:

@@ -79,9 +79,3 @@ def generate_number_by_regex(regex):
     except:
         print_exc()
 
-
-# # regex = "^[3-8]{5}$"
-# regex = "^[1,2,3,4]{5}$"
-
-# randon_num = generate_number_by_regex(regex)
-# print(randon_num)

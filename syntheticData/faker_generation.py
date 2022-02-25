@@ -30,10 +30,6 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 logger = None
 loggstr = 'Inside FakeGeneration.py:'
 
-aegis_home = os.environ.get('AEGIS_HOME')
-sys.path.append(aegis_home+'/python')
-sys.path.append(aegis_home+'/python/utility_codes')
-
 
 def get_product_list():
     try:

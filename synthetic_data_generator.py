@@ -14,6 +14,7 @@ import numpy as np
 import copy
 import warnings
 from traceback import print_exc
+from datetime import datetime
 from zipfile import ZipFile
 # import to make zip
 from utility_codes.schema_json_validator import validate_schema_json
@@ -27,15 +28,13 @@ from syntheticData.faker_generation import generate_entity_data
 from syntheticData.date_data_generator import generate_date_data
 from syntheticData.string_data_generator import generate_string_data
 from syntheticData.integer_data_generator import generate_integer_data
-from entity_json_generator.jsonpath import LOG_FILENAME, DATE_FORMATS_JSON
 from data_consistency_handler import add_generation_consistency
 from utility_codes.constants_declearation import CREATE_SCHEMA, FAILED, FINISHED, RUNNING
-
+from utility_codes.path_manager import DATE_FORMATS_JSON,AEGIS_PYTHON_LOGS
 warnings.filterwarnings("ignore", category=FutureWarning)
 
+print(f'AEGIS_PYTHON_LOGS={AEGIS_PYTHON_LOGS}')
 loggstr = 'Inside SyntheticDataGenerator.py:'
-AEGIS_LOGS = os.environ.get('AEGIS_LOGS')
-AEGIS_PYTHON_LOGS = AEGIS_LOGS + "/python"
 
 logger_name = "synthetic_data_log"
 
@@ -439,10 +438,10 @@ if __name__ == "__main__":
     try:
         global logger
         schemaJsonPath = sys.argv[1]
-        log_id = sys.argv[2]
-        ts = get_time_stamp()
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # ts = get_time_stamp()
         log_file = "synthetic_data"
-        log_file = AEGIS_PYTHON_LOGS + "/" + log_file + "_"+str(log_id)+"_"+str(ts)+".log"
+        log_file = AEGIS_PYTHON_LOGS + "/" + log_file +"_"+str(ts)+".log"
         setup_logger(logger_name, log_file)
         os.environ['LOGGER_NAME'] = logger_name
         logger = logging.getLogger(os.environ.get('LOGGER_NAME'))
