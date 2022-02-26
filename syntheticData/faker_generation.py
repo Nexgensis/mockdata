@@ -1,6 +1,6 @@
 # basic imports
-from utility_codes.constants_declearation import CREATE_SCHEMA, FAILED
-from utility_codes.regex_handler import generate_number_by_regex
+from utilities.constants_declearation import CREATE_SCHEMA, FAILED
+from utilities.regex_handler import generate_number_by_regex
 from .common_functionality import remove_extra_list_elements
 import sys
 import json

@@ -17,8 +17,7 @@ from traceback import print_exc
 from datetime import datetime
 from zipfile import ZipFile
 # import to make zip
-from utility_codes.schema_json_validator import validate_schema_json
-from utility_codes.generate_time_series import generate_time_series
+from utilities.generate_time_series import generate_time_series
 from aegis_logging import setup_logger
 
 from syntheticData.float_data_generator import generate_float_data
@@ -29,8 +28,8 @@ from syntheticData.date_data_generator import generate_date_data
 from syntheticData.string_data_generator import generate_string_data
 from syntheticData.integer_data_generator import generate_integer_data
 from data_consistency_handler import add_generation_consistency
-from utility_codes.constants_declearation import CREATE_SCHEMA, FAILED, FINISHED, RUNNING
-from utility_codes.path_manager import DATE_FORMATS_JSON,AEGIS_PYTHON_LOGS
+from utilities.constants_declearation import CREATE_SCHEMA, FAILED, FINISHED, RUNNING
+from utilities.path_manager import DATE_FORMATS_JSON,AEGIS_PYTHON_LOGS
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 print(f'AEGIS_PYTHON_LOGS={AEGIS_PYTHON_LOGS}')
@@ -446,7 +445,6 @@ if __name__ == "__main__":
         os.environ['LOGGER_NAME'] = logger_name
         logger = logging.getLogger(os.environ.get('LOGGER_NAME'))
         logger.info(loggstr+'process started')
-        validate_schema_json(schemaJsonPath)
         handle_data_generation(schemaJsonPath)
         logger.info("process completed")
 

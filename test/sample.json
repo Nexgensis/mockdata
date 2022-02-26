@@ -1,1 +1,151 @@
-{"schema": [{"schemaId": "", "numberOfRecords": 100, "columndetails": [{"generation": "random", "iscollapsed": false, "duplicatePer": "", "dataType": "integer", "isDistribution": false, "transactionDate": null, "entity": "numericId", "nullPer": "", "distributions": [], "columnName": "empid", "uniqueValuesCount": "20", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": false, "duplicatePer": "", "dataType": "string", "isDistribution": true, "transactionDate": null, "entity": "string", "nullPer": "", "distributions": [{"minChars": "3", "maxChars": "6"}], "columnName": "name", "uniqueValuesCount": "100", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": false, "duplicatePer": "", "dataType": "integer", "isDistribution": true, "transactionDate": null, "entity": "integer", "nullPer": "", "distributions": [{"minimum": "1", "maximum": "100", "stepSize": "1"}], "columnName": "age", "uniqueValuesCount": "100", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": false, "duplicatePer": "", "dataType": "string", "isDistribution": false, "transactionDate": null, "entity": "gender", "nullPer": "", "distributions": [], "columnName": "gender", "uniqueValuesCount": "20", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": false, "duplicatePer": "", "dataType": "string", "isDistribution": false, "transactionDate": null, "entity": "city", "nullPer": "", "distributions": [], "columnName": "city", "uniqueValuesCount": "100", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": true, "duplicatePer": "", "dataType": "float", "isDistribution": true, "transactionDate": null, "entity": "float", "nullPer": "", "distributions": [{"beginWith": "", "dataSamples": "", "recordCount": "", "stepSize": "0.234", "endsWith": "", "maximum": "15000", "minimum": "9000", "filterDigits": ""}], "columnName": "expenses", "uniqueValuesCount": "20", "frequency": "D", "fk": false, "pk": false}, {"generation": "random", "iscollapsed": true, "duplicatePer": "", "dataType": "date", "isDistribution": true, "transactionDate": null, "entity": "date", "nullPer": "", "distributions": [{"dateFormat": "MM-dd-yyyy", "recordCount": "", "stepSize": "1", "maximum": "02-18-2022", "minimum": "09-04-2021"}], "columnName": "Date of joining", "uniqueValuesCount": "20", "frequency": "D", "fk": false, "pk": false}], "schemaName": "sample", "title": "sample"}], "connectioninfo": {"dataType": "CSV", "filePath": "", "targetType": "FILE", "locale": "locale_us", "tableName": "sample", "datasourceType": "Local Machine", "folderPath": "/home/pgnosi/Desktop/Sree/Dec2021/Aegis/Aegis_testing/test2", "timeSeries": false, "filepath": "/home/pgnosi/Desktop/Sree/Dec2021/Aegis/Aegis_testing/test2/sample.csv", "numberOfRecords": 0, "schemaId": 266, "schemaType": "create_schema", "fileNames": "sample.csv"}}
+{
+    "schema": [
+      {
+        "schemaId": "",
+        "numberOfRecords": 100,
+        "columndetails": [
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "integer",
+            "isDistribution": false,
+            "entity": "numericId",
+            "nullPer": "",
+            "distributions": [],
+            "columnName": "empid",
+            "uniqueValuesCount": "20"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "string",
+            "isDistribution": true,
+            "entity": "string",
+            "nullPer": "",
+            "distributions": [
+              {
+                "minChars": "3",
+                "maxChars": "6"
+              }
+            ],
+            "columnName": "name",
+            "uniqueValuesCount": "100"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "integer",
+            "isDistribution": true,
+            "entity": "integer",
+            "nullPer": "",
+            "distributions": [
+              {
+                "minimum": "1",
+                "maximum": "100",
+                "stepSize": "1"
+              }
+            ],
+            "columnName": "age",
+            "uniqueValuesCount": "100"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "string",
+            "isDistribution": false,
+            "entity": "gender",
+            "nullPer": "",
+            "distributions": [],
+            "columnName": "gender",
+            "uniqueValuesCount": "20"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "string",
+            "isDistribution": false,
+            "entity": "city",
+            "nullPer": "",
+            "distributions": [],
+            "columnName": "city",
+            "uniqueValuesCount": "100"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "float",
+            "isDistribution": true,
+            "entity": "float",
+            "nullPer": "",
+            "distributions": [
+              {
+                "beginWith": "",
+                "dataSamples": "",
+                "recordCount": "",
+                "stepSize": "0.234",
+                "endsWith": "",
+                "maximum": "15000",
+                "minimum": "9000",
+                "filterDigits": ""
+              }
+            ],
+            "columnName": "expenses",
+            "uniqueValuesCount": "20"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "date",
+            "isDistribution": true,
+            "transactionDate": null,
+            "entity": "date",
+            "nullPer": "",
+            "distributions": [
+              {
+                "dateFormat": "MM-dd-yyyy",
+                "recordCount": "",
+                "stepSize": "1",
+                "maximum": "02-18-2022",
+                "minimum": "09-04-2021"
+              }
+            ],
+            "columnName": "Date of joining",
+            "uniqueValuesCount": "20"
+          },
+          {
+            "generation": "random",
+            "duplicatePer": "",
+            "dataType": "datetime",
+            "isDistribution": false,
+            "transactionDate": [
+              "2021-02-01 10:20:00",
+              "2021-02-10 10:20:00"
+            ],
+            "entity": "timeseries",
+            "fixedTime":false,
+            "nullPer": "",
+            "distributions": [],
+            "columnName": "Date of transaction",
+            "uniqueValuesCount": "20"
+          }
+        ],
+        "schemaName": "sample",
+        "title": "sample"
+      }
+    ],
+    "connectioninfo": {
+      "dataType": "CSV",
+      "filePath": "",
+      "targetType": "FILE",
+      "locale": "locale_us",
+      "tableName": "sample",
+      "datasourceType": "Local Machine",
+      "folderPath": "/home/pgnosi/Desktop/Sree/Dec2021/Aegis/Aegis_testing/test2",
+      "timeSeries": false,
+      "filepath": "/home/pgnosi/Desktop/Sree/Dec2021/Aegis/Aegis_testing/test2/sample.csv",
+      "numberOfRecords": 0,
+      "schemaId": 266,
+      "schemaType": "create_schema",
+      "fileNames": "sample.csv"
+    }
+  }

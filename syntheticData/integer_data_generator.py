@@ -1,5 +1,5 @@
 
-from utility_codes.constants_declearation import CREATE_SCHEMA, FAILED
+from utilities.constants_declearation import CREATE_SCHEMA, FAILED
 import pandas as pd
 import numpy as np
 

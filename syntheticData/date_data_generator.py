@@ -1,5 +1,5 @@
 
-from utility_codes.constants_declearation import CREATE_SCHEMA, FAILED
+from utilities.constants_declearation import CREATE_SCHEMA, FAILED
 import pandas as pd
 import numpy as np
 
@@ -14,7 +14,7 @@ import string
 from datetime import datetime
 from datetime import timedelta
 from .common_functionality import remove_extra_list_elements
-from utility_codes.path_manager import DATE_FORMATS_JSON
+from utilities.path_manager import DATE_FORMATS_JSON
 import copy
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
