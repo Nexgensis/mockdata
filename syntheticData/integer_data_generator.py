@@ -21,7 +21,6 @@ loggstr = 'Inside IntegerDataGenerator.py:'
 
 # from .commom_functionality import make_duplicates_of_unique
 
-
 def get_listof_integers(colDict):
     try:
         uniqueValuesCount= int(colDict["uniqueValuesCount"])
@@ -39,8 +38,24 @@ def get_listof_integers(colDict):
             maxVal = int(colDict["maximum"])
         logger.info("inside getListofIntegers")
         logger.info(f"minimum ={minimum}")
-        logger.info(f"maxVal ={maxVal}")     
-        intList= list(np.arange(minimum,maxVal,stepSize))
+        logger.info(f"maxVal ={maxVal}")
+        intList=[]
+        uniqueNums = set()
+        if uniqueValuesCount < ((maxVal-minimum)/10):
+            print("uniquevalues are very less")
+            intList = random.sample(range(minimum,maxVal), uniqueValuesCount)
+            print(f"First list size={len(intList)}")
+            uniqueNums = set(intList)
+            print(f"First set size={len(uniqueNums)}")            
+            while len(uniqueNums) <  uniqueValuesCount:
+                moreIntList = random.sample(range(minimum,maxVal), uniqueValuesCount)
+                intList = intList.extend(moreIntList)
+                uniqueNums = set(intList)
+                print(f"Next list size={len(intList)}")
+                print(f"Next set size={len(uniqueNums)}")
+            intList = list(uniqueNums)
+        else:
+            intList= list(np.arange(minimum,maxVal,stepSize))
         logger.info(f"list size inside get_listof_integers={str(len(intList))}")
         # random.shuffle(intList)
         return intList

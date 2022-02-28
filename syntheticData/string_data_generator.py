@@ -20,9 +20,28 @@ loggstr='Inside StringDataGenerator.py:'
 
 from .common_functionality import remove_extra_list_elements
 
+def get_listof_defaults(colDict):
+    try:
+        stringDataList=[]
+        dataSamplesStr = colDict["dataSamples"]
+        totalCount= int(colDict["recordCount"])
+        dataSamplesList = dataSamplesStr.split(",")
+        total_samples= len(dataSamplesList)
+        for i in range(totalCount):
+            position= random.randint(0,total_samples-1)
+            genStr = dataSamplesList[position]
+            stringDataList.append(genStr)
+        return stringDataList
+    except:
+        print_exc()
+
+
 def get_listof_strings(stringDataList,colDict,entity):
     try:
         logger.info(loggstr+'inside get_listof_strings function')
+        if "dataSamples" in colDict.keys():
+            return get_listof_defaults(colDict)
+
         totalCount= int(colDict["recordCount"])
         minChars= int(colDict["minChars"])
         maxChars= int(colDict["maxChars"])
